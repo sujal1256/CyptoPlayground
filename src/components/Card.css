@@ -1,0 +1,50 @@
+
+.card{
+    min-width: 30%;
+    width: 30%;
+    height: 21em;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    border-radius: 1em;
+    padding: 20px;
+    box-shadow: 1px 1px 5px grey;
+}
+.card:hover{
+    box-shadow: 1px 1px 10px grey;
+}
+.card i{
+    font-size: 5em;
+    color: #63449cd3;
+}
+.card-title{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.card-content{
+    font-size: 0.8em;
+    width: 80%;
+    /* background-color: yellow; */
+    padding: 0px 20px;
+    margin: 10px;
+}
+@media (max-width: 850px){
+    .card{
+        width: 70%;
+        height: 20em;
+        margin-top: 20px;
+        height: 23em;
+        i{
+            margin: 0;
+            font-size: 8em;
+        }
+        p{
+            margin: 0;
+        }
+    }
+
+}
